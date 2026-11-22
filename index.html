@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style = "background-color: rgb(201, 199, 199);">
+
+    <!-- Welcome Screen -->
+    <section id="welcome-screen">
+        <h1>JavaScript Quiz</h1>
+        <p>Test your JavaScript knowledge!</p>
+        <p>5 Questions</p>
+        <button id="start-btn">Start Quiz</button>
+    </section>
+
+    <!-- Quiz Screen -->
+    <section id="quiz-screen" hidden>
+        <p id="question-number"></p>
+        <p id="timer"></p>
+        <div id="progress-bar"></div>
+
+        <h2 id="question-text"></h2>
+
+        <div id="options-container"></div>
+
+        <button id="next-btn">Next</button>
+    </section>
+
+    <!-- Result Screen -->
+    <section id="result-screen" hidden>
+        <h1>Quiz Completed!</h1>
+        <p id="final-score"></p>
+        <p id="correct-count"></p>
+        <p id="wrong-count"></p>
+        <p id="percentage"></p>
+        <p id="performance-message"></p>
+
+        <button id="restart-btn">Restart Quiz</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
